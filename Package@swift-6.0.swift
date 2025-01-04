@@ -39,12 +39,6 @@ let package = Package(
         .iOS(.v16)
     ],
     products: [
-        .library(
-            name: .pointfreeServer,
-            targets: [
-                .pointfreeServer
-            ]
-        ),
         .library(name: .pointfreeServer, targets: [.pointfreeServer]),
     ],
     dependencies: .default,
