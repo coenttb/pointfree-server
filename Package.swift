@@ -23,8 +23,6 @@ extension [Package.Dependency] {
     static var `default`: Self {
         [
             .package(url: "https://github.com/apple/swift-nio", from: "2.61.0"),
-            .package(url: "https://github.com/apple/swift-nio-extras.git", from: "1.0.0"),
-            .package(url: "https://github.com/apple/swift-log", from: "1.5.0"),
             .package(url: "https://github.com/coenttb/pointfree-web", branch: "main"),
             .package(url: "https://github.com/pointfreeco/swift-dependencies", from: "1.1.5"),
             .package(url: "https://github.com/swift-server/async-http-client", from: "1.19.0"),
